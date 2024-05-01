@@ -1,0 +1,57 @@
+// SobreNosotros 
+@media (max-width: 770px) {
+    .cafe-sobre-nosotros {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .img2-sobre-nosotros {
+        display: none;
+    }
+
+}
+
+//Encontranos
+@media (max-width: 740px){
+    .encontranos{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        justify-items: center;
+    }   
+
+    .card-header{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card-2{
+      position: relative;
+      right: -110px;
+    }
+}
+
+@media (max-width: 657px){
+    .card-2{
+        position: relative;
+        right: -160px;
+    }
+}
+
+//Contacto
+@media (max-width: 740px) {
+    .hero-contact-img {
+        display: none;
+    }
+}
+
+//index
+@media (max-width: 770px){
+    .card-main, .card-main-content{
+        flex-direction: column;
+        height: 1500px;
+    }
+}

@@ -100,24 +100,21 @@ nav .navbar {
   object-fit: contain;
 }
 
-@media (max-width: 770px) {
-  .hero-img {
-    display: none;
-  }
-  .inicio-h2 {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: -90px;
-    top: 0;
-  }
+.inicio-h2 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -90px;
+  top: 0;
 }
+
 .h-100 {
   border-radius: 0px;
   border: 1.5px solid rgb(209, 187, 158);
 }
 
-.card-main, .card-main-content {
+.card-main,
+.card-main-content {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -129,32 +126,48 @@ nav .navbar {
   position: relative;
   width: 97vw;
   height: 100vh;
-  padding-left: 15px;
+  margin-left: 10px;
 }
-.card-main .card-title, .card-main-content .card-title {
+.card-main .card-title,
+.card-main-content .card-title {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-.card-main .card-text, .card-main-content .card-text {
+.card-main .card-text,
+.card-main-content .card-text {
   font-family: "Poppins", sans-serif;
 }
-.card-main .h-100, .card-main-content .h-100 {
+.card-main .h-100,
+.card-main-content .h-100 {
   background-color: rgb(234, 216, 192);
 }
-.card-main .card-img-top, .card-main-content .card-img-top {
+.card-main .card-img-top,
+.card-main-content .card-img-top {
   height: 300px;
   object-fit: cover;
 }
-.card-main .card-title, .card-main-content .card-title {
+.card-main .card-title,
+.card-main-content .card-title {
   font-size: 25px;
 }
-.card-main .h-100, .card-main-content .h-100 {
+.card-main .h-100,
+.card-main-content .h-100 {
   height: 100%;
 }
 
 .btn .btn-primary {
   position: relative;
   left: 100px;
+}
+
+footer {
+  text-decoration: none;
+  background-color: rgb(167, 146, 119);
+  color: white;
+}
+
+.nav-link {
+  color: white;
 }
 
 .hero-contact {
@@ -169,7 +182,7 @@ nav .navbar {
   border: none;
   border-radius: none;
   background-color: rgb(209, 187, 158);
-  width: 180px;
+  width: 120px;
 }
 .hero-contact .hero-contact-img {
   width: 90%;
@@ -186,6 +199,10 @@ nav .navbar {
   background-color: rgb(234, 216, 192);
 }
 
+.hero-contact .form-control {
+  width: 120px;
+}
+
 /* Encontranos */
 .card-2 {
   border: none;
@@ -193,8 +210,8 @@ nav .navbar {
   font-family: "Poppins", sans-serif;
   justify-content: center;
   align-items: center;
-  margin-top: 5px;
   gap: 0px;
+  margin-top: 20px;
 }
 .card-2 .list-group-item {
   background-color: rgb(234, 216, 192);
@@ -321,12 +338,18 @@ nav .navbar {
   margin-top: 10px;
   display: block;
   font-size: 30px;
+  padding-left: 27px;
 }
 
 .sobre-nosotros-p {
   /* padding-top: 150px; */
   margin: 0;
   padding-left: 30px;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (max-width: 770px) {
@@ -371,6 +394,80 @@ nav .navbar {
   .card-main, .card-main-content {
     flex-direction: column;
     height: 1500px;
+  }
+}
+@media (max-width: 480px) {
+  .card-main, .card-main-content {
+    flex-direction: column;
+    height: 1500px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .menu-index .hero-content {
+    margin: 0;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 770px) {
+  .hero-img {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    width: 100%;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(167, 146, 119);
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: rgb(167, 146, 119);
+  }
+}
+div.container {
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .sobre-nosotros-p {
+    width: 250px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .sobre-nosotros-h1 {
+    padding-left: 25px;
+  }
+  footer {
+    width: 100%;
+    height: 300px;
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .form-control {
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .card-2 {
+    margin-top: 0;
+    position: relative;
+    right: -100px;
   }
 }
 

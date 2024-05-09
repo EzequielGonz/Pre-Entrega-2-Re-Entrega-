@@ -13,7 +13,7 @@
         border: none;
         border-radius: none;
         background-color: $secondary-color;
-        width: 180px;
+        width: 120px;
     }
 
     .hero-contact-img {
@@ -31,4 +31,8 @@
 
 .form-control:hover {
     background-color: $terciary-color;
+}
+
+.hero-contact .form-control{
+    width: 120px;
 }

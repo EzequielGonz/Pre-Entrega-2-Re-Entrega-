@@ -53,9 +53,12 @@
 }
 
 
-
+// Flex que paso a grid
 .sobre-nosotros-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 4, 1fr;
+    justify-content: center;
+    gap: 40px;
 
     .sobre-nosotros-p {
         /* padding-top: 150px; */
@@ -82,10 +85,10 @@
     margin-top: 10px;
     display: block;
     font-size: 30px;
-<<<<<<< HEAD
+
     padding-left: 27px;
-=======
->>>>>>> 59350aa9385ddade659aed0360fe85c87bed3e65
+
+
 }
 
 
@@ -95,10 +98,10 @@
     padding-left: 30px;
 }
 
-<<<<<<< HEAD
+
 .container{
     padding-left: 0;
     padding-right: 0;
 }
-=======
->>>>>>> 59350aa9385ddade659aed0360fe85c87bed3e65
+
+
